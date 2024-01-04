@@ -521,7 +521,8 @@ footer ul li ul li {
    
     }
 
-    /* Small devices (phones, less than 768px) */
+
+/* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .main-container nav {
         display: flex;
@@ -575,54 +576,50 @@ footer ul li ul li {
         display: none;
     }
     .filtres_favoris {
-        display: none;
-    }
-    .mobile_Favoris1 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        height: 50px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
-    .mobile_Favoris2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-size: 14px;
-        height: 50px;
-        padding-top: 20px;
-    }
-
     .economique {
-        width: 160px;
+        width: 130px;
         font-size: 14px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
+        height: 40px;
+        border-radius: 30px;
+        padding-left: 15px;
     }
     .familial {
-        width: 160px;
+        width: 130px;
         font-size: 14px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
+        height: 40px;
+        border-radius: 30px;
+        padding-left: 15px;
     }
     .romantique {
-        width: 160px;
+        width: 130px;
         font-size: 14px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
+        height: 40px;
+        border-radius: 30px;
+        padding-left: 15px;
     }
     .pepites {
-        width: 160px;
+        width: 130px;
         font-size: 14px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
+        height: 40px;
+        border-radius: 30px;
+        padding-left: 15px;
     }
     .economique i {
         margin-right: 10px;
