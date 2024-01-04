@@ -520,3 +520,191 @@ footer ul li ul li {
     }
    
     }
+
+    /* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .main-container nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px;
+        width: 60px;
+    }
+    nav a{
+        margin: 0px;
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 2px solid transparent;
+        padding: 20px;
+        width: 100%;
+    }
+    nav a:hover{
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        
+    }
+    .formulaire h1 {
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .formulaire p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .mobile_loupe {
+        display: block;
+        background-color: #0065FC;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile_loupe i {
+        display: block;
+        color: white;
+        background-color: #0065FC;
+    }
+    .desktop_Rechercher {
+        display: none;
+    }
+    .filtres_favoris {
+        display: none;
+    }
+    .mobile_Favoris1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 50px;
+    }
+    .mobile_Favoris2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 14px;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    .economique {
+        width: 160px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .familial {
+        width: 160px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .romantique {
+        width: 160px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .pepites {
+        width: 160px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .economique i {
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    .familial i {
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    .romantique i {
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    .pepites i {
+        margin-right: 10px;
+        font-size: 22px;
+    }
+
+    .rubriques {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .hebergements_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hebergement_card_carré {
+        width: 100%;
+
+    }
+    
+    .populaires {
+        order: 1;
+        border-radius: 0%;
+    }
+    .hebergements {
+        order: 2;
+        background-color: white;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .populaires-cards a {
+        width: 100%;
+    }
+    .activites_content a {
+        width: 100%;
+    }
+    .activites_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .activites .card_activites {
+        width: 100%;
+        height: 200px;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    footer .blocs {
+        width: 100%;
+    }
+
+    .formulaire form {
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}
